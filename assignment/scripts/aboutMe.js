@@ -38,8 +38,8 @@ let food = 'pho';
 console.log('I could always eat ' + food);
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets = 1;
-console.log('I have this many pets: ' + pets);
+let pets = 4;
+console.log(pets);
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1;
@@ -50,7 +50,7 @@ pets += 2;
 console.log(pets);
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets = 1;
+const allowedPets = 2;
 console.log('I can only care for this many pets: ' + allowedPets);
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
@@ -77,15 +77,14 @@ else {
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 if (pets < allowedPets) {
-    console.log('I can have more pets!');
+	console.log('I can have more pets!');
 } // end of pets less than allowedPets
-else if (pets = allowedPets) {
-    console.log('I have enough pets');
+else if (pets === allowedPets) {
+	console.log('I have enough pets');
 } // end of pets equal to allowedPets
 else if (pets > allowedPets) {
-    console.log('Oh no, I have too many pets!');
+	console.log('Oh no, I have too many pets!');
 } // end of pets exceeds allowedPets
-
 
 // STRETCH GOALS:
 
