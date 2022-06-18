@@ -50,23 +50,42 @@ pets += 2;
 console.log(pets);
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets = 2;
+const allowedPets = 1;
 console.log('I can only care for this many pets: ' + allowedPets);
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-if(adventurous){
-    console.log("Adventures are great!");
-}// end adventures 
+if (adventurous) {
+	console.log('Adventures are great!');
+} // end adventurous "true"
+else {
+	console.log('How about we stay home?');
+} // end adventurous "false"
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
+if (luckyNumber === 2 && adventurous === true) {
+	console.log('Roll the dice!');
+} // end roll the dice true
+else {
+	console.log('No dice');
+} // end roll the dice false
 
 // 15 - Write a conditional that console logs "I can have more pets!"
-//if the value of `pets` is less than the value of `allowedPets`,
+// if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+if (pets < allowedPets) {
+    console.log('I can have more pets!');
+} // end of pets less than allowedPets
+else if (pets = allowedPets) {
+    console.log('I have enough pets');
+} // end of pets equal to allowedPets
+else if (pets > allowedPets) {
+    console.log('Oh no, I have too many pets!');
+} // end of pets exceeds allowedPets
+
 
 // STRETCH GOALS:
 
